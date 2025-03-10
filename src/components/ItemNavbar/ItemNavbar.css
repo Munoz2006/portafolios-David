@@ -1,8 +1,10 @@
 li{
     margin: 1rem;
+    list-style: none;
 }
 .a-link{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 1.1rem;
+    cursor: pointer;
 }

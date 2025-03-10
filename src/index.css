@@ -1,4 +1,4 @@
-body,#root{
+body, #root{
   width: 100vw;
   height: 100vh;
   margin: 0;
@@ -8,4 +8,5 @@ body,#root{
   flex-direction: column;
   align-items: center;
   background-color: #FFFFFF;
+  font-family: 'Quicksand', sans-serif;
 }
