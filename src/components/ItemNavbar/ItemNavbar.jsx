@@ -1,11 +1,12 @@
+import { NavLink } from 'react-router-dom'
 import './ItemNavbar.css'
-export const ItemNavbar = () =>{
+
+export const ItemNavbar = ({content, style, route}) =>{
     return(
         <>
-            <li>Inicio</li>
-            <li>Habilidades Tecnicas</li>
-            <li>Experiencia Profesional</li>
-            <li>Estudios</li>
+           <li>
+                <NavLink className={style} to={route}>{content}</NavLink>
+           </li>
         </>
     )
 }
