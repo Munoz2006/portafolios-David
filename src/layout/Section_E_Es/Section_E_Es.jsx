@@ -4,6 +4,7 @@ export const Section_E_Es = () => {
     return(
         <section className="section-E-Es">
             <Div_E_Es/>
+            <Div_E_Es/>
         </section>
     )
 }
