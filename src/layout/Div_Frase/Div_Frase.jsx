@@ -1,8 +1,10 @@
+import './Div_Frase.css'
 
-export const Div_Frase = ({style, style2}) => {
+export const Div_Frase = ({content, contentP}) => {
     return(
-        <div className={style}>
-            <h3 className={style2}></h3>
+        <div className='div-main2'>
+            <p className="p-home">{contentP}</p>
+            <h4 className='h4-home2'>{content}</h4>
         </div>  
     )
 }

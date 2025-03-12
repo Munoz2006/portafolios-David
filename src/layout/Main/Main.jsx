@@ -33,9 +33,9 @@ export const Main = () => {
                 <Div_Main contentTitle='Nivel de ingles'
                     contentLi1='Mi nivel de ingles es de un A2, muy basico'/>    
             </section>
-            <section className='section-4'>
-                <Div_Frase frase='La educación es el arma más poderosa que puedes usar para cambiar el mundo'/>
-            </section>
+                <Div_Frase content='Nelson Mandela'
+                  contentP='La educación es el arma más poderosa que puedes usar 
+                para cambiar el mundo'  />
         </main>
     )
 }
