@@ -1,0 +1,14 @@
+.div-main{
+    width: 100%;
+    position: relative;
+    left: 0rem;
+    background-color: #6E07F3;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #fff;
+}
+.li-main{
+    width: 70%;
+    font-size: 1.1rem;
+}

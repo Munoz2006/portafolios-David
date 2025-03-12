@@ -6,7 +6,6 @@ export const Navbar = () => {
         <nav className='nav'>
             <ul className='ul'>
                 <ItemNavbar route='/' content='Inicio' style='a-link'/>
-                <ItemNavbar route='/TechnicalSkills' content='Habilidades Técnicas' style='a-link'/>
                 <ItemNavbar route='/ProfessionalExperience' content='Experiencia Profesional' style='a-link'/>
                 <ItemNavbar route='/Education' content='Educación' style='a-link'/>
             </ul>
