@@ -7,3 +7,8 @@
     border-radius: 1rem;
     font-size: 1.1rem;
 }
+@media screen and (max-width:1000px){
+    .div-main2{
+        width: 60%;
+    }
+}

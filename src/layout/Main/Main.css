@@ -49,3 +49,62 @@
     width: 40%;
     font-size: 1.4rem;
 }
+@media screen and (max-width:1125px){
+    .img-2{
+        width: 70%;
+        top: 4rem;
+    }
+    .h3-home{
+        font-size: 1.2rem;
+        width: 40%;
+    }
+    .h3-home2{
+        font-size: 1.6rem;
+    }
+    .section-2{
+        height: 600px;
+    }
+}
+@media screen and (max-width: 900px){
+    .h3-home2{
+        font-size: 1.3rem;
+    }
+    .section-2{
+        width: 80%;
+        height: 500px;
+    }
+    .h4-home{
+        width: 60%;
+        font-size: 1.2rem;
+    }
+    .section-3{
+        height: 700px;
+    }
+}
+@media  screen and (max-width:900px){
+    .section-3{
+        height: 900px;
+        flex-wrap: wrap;
+    }
+    .img-1{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 664px){
+    .img-2{
+        width: 70%;
+        top: 2rem;
+    }
+}
+@media screen and (max-width: 550px){
+    .img-2{
+        width: 60%;
+        top: 1rem;
+    }
+    .h3-home{
+        margin: 1 auto;
+    }
+    .img-1{
+        width: 30%;
+    }
+}

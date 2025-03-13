@@ -25,3 +25,12 @@
 .icons:hover {
     color: white;
 }
+@media screen and (max-width:1125px){
+    .footer{
+        width: 80%;
+        height: 80%;
+    }
+    .icons{
+        font-size: 3rem;
+    }
+}

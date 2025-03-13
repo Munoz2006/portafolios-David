@@ -12,3 +12,36 @@
     font-size: 1.8rem;
     color: #ffff;
 }
+@media screen and (max-width:1125px){
+    .header{
+        width: 80%;
+    }
+    .h2-header{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:861px){
+    .h2-header{
+        font-size: 1.3rem;
+    }
+    .header{
+        width: 70%;
+    }
+}
+@media screen and (max-width:664px){
+    .h2-header{
+        font-size: 0.9rem;
+    }
+    .header{
+        width: 80%;
+    }   
+}
+@media screen and (max-width:550px){
+    .h2-header{
+        font-size: 0.8rem;
+    }
+    .header{
+        width: 80%;
+    }
+    
+}

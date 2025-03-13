@@ -12,3 +12,41 @@ li{
 .a-link:hover{
     color: rgb(0, 0, 0);
 }
+@media screen and (max-width:861px){
+    li{
+        margin: 0.5rem;
+    }
+    .a-link{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:861px){
+    li{
+        margin: 0.4rem;
+    }
+    .a-link{
+        font-size: 1rem;
+    }
+    
+}
+@media screen and (max-width:664px){
+    li{
+        margin: 0.3rem;
+    }
+    .a-link{
+        font-size: 0.9rem;
+    }
+    
+}
+@media screen and (max-width:576px){
+    li{
+        margin: 0.2rem;
+    }
+    .a-link{
+        font-size: 0.9rem;
+    }
+    
+}
+@media screen and (max-width:540px){
+    
+}
