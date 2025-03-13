@@ -13,3 +13,30 @@ section{
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width:898px){
+    section{
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width:738px){
+    .main-E{
+        width: 100%;
+    }
+    section{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:500px){
+    h1{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width:360px){
+    h1{
+        font-size: 1.6rem;
+    }
+    
+}

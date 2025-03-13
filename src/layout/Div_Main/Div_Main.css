@@ -22,3 +22,13 @@
     }
     
 }
+@media screen and (max-width:353px){
+    .div-main{
+        width: 90%;
+    }
+    .li-main{
+        font-size: 1rem;
+        width: 100%;
+    }
+    
+}

@@ -108,3 +108,51 @@
         width: 30%;
     }
 }
+@media screen and (max-width: 473px){
+    .img-2{
+        width: 60%;
+        top: 1rem;
+    }
+    .h3-home{
+        font-size: 1rem;
+        width: 60%;
+    }
+    .h3-home2{
+        font-size: 1.2rem;
+    }
+    .h4-home{
+        width: 70%;
+        font-size: 1rem;
+    }
+    .img-1{
+        width: 40%;
+    }
+    .section-2{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 395px){
+    .img-2{
+        width: 60%;
+        top: 1rem;
+    }
+    .h3-home{
+        font-size: 1rem;
+        width: 70%;
+    }
+    .h3-home2{
+        font-size: 1.1rem;
+        width: 70%;
+    }
+    .h4-home{
+        width: 90%;
+        font-size: 0.9rem;
+    }
+    .img-1{
+        width: 50%;
+    }
+    .section-2{
+        height: 400px;
+    }
+    
+}

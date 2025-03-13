@@ -20,7 +20,7 @@
     .nav {
         position: absolute;
         top: 100%;
-        left: 0;
+        left: 60px;
         width: 100%;
         background-color: #6E07F3;
         display: none;
@@ -29,23 +29,24 @@
         justify-content: center;
         border-radius: 1rem;
         width: 50%;;
-        margin-left: 7rem;
     }
     .nav.open {
         display: flex;
-        top: 6rem; 
+        top: 5rem; 
     }
     .ul {
         flex-direction: column;
         width: 100%;
+        margin-right: 2rem;
     }
     .ul li {
         width: 100%;
         text-align: center;
-        margin: 0.5rem 0;
+        margin: 0.2rem 0;
     }
     .ul li a {
-        color: #fff; 
+        color: #fff;
+        font-size: 0.9rem; 
     }
     .nav.open .ul li a {
         color: #fff; 
