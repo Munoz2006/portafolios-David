@@ -1,9 +1,9 @@
 import './Navbar.css'
 import { ItemNavbar } from "../../components/ItemNavbar/ItemNavbar"
 
-export const Navbar = () => {
+export const Navbar = ({ isOpen }) => {
     return (
-        <nav className='nav'>
+        <nav className={`nav ${isOpen ? 'open' : ''}`}>
             <ul className='ul'>
                 <ItemNavbar route='/portafolios-David' content='Inicio' style='a-link'/>
                 <ItemNavbar route='portafolios-David/ProfessionalExperience' content='Experiencia Profesional' style='a-link'/>
