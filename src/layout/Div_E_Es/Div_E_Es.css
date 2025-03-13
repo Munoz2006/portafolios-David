@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     background-color: #6E07F3;
+    font-size: 1.1rem;
     border-radius: 1rem;
     padding: 1rem;
     overflow: hidden;
@@ -13,11 +14,15 @@
     margin: 1.6rem;
     color: #fff;
 }
-.card .boton{
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.card .btn{
     color: #ffffff;
-    font-size: 30px;
+    font-size: 1.2rem;
     width: 100%;
-    background-color: #e02fff;
+    background-color: black;
     text-align: center;
-    padding-top: 40px;
+    border-radius: 1rem;
 }
