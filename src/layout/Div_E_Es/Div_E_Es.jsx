@@ -7,7 +7,7 @@ export const Div_E_Es = ({contentTitle, contentp, link}) => {
            <p>{contentTitle}</p>
            <p>{contentp}</p>
            <div className='btn'>
-                <a href={link}>Ir a ver</a>
+                <a  target= '_blank' href={link}>Ir a ver</a>
            </div>
         </div>
     )  
