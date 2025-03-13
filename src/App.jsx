@@ -9,9 +9,9 @@ export const App = () => {
     <>
       <Header/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/ProfessionalExperience" element={<ExperienciaP/>}/>
-        <Route path="/Education" element={<Estudios/>}/>
+        <Route path="/portafolios-David" element={<Home/>}/>
+        <Route path="portafolios-David/ProfessionalExperience" element={<ExperienciaP/>}/>
+        <Route path="portafolios-David/Education" element={<Estudios/>}/>
       </Routes>
       <Footer/>
     </>
