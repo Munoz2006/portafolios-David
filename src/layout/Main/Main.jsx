@@ -28,7 +28,7 @@ export const Main = () => {
                 <Div_Main contentTitle='Habilidades sociales'
                     contentLi='Personero: Fui personero de mi colegio y eso me ayudo a ser mucho mas comicativo'
                     contentLi1='Diplomado Derechos Humanos: Tambien estuve en un diplomado 
-                    que me ayudaba a desevolver mis habilidades sociales'
+                    que me ayudaba a desenvolver mis habilidades sociales'
                     />
                 <Div_Main contentTitle='Nivel de ingles'
                     contentLi1='Mi nivel de ingles es de un A2, muy basico'/>    
