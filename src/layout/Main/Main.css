@@ -20,6 +20,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 1rem 1rem 1rem 1rem;
+    padding: 20px; /* Añadido para mejorar el padding */
 }
 .section-3{
     width: 90%;
@@ -30,7 +31,7 @@
     border-radius: 0rem 0rem 1rem 1rem;
 }
 .img-1{
-    width: 15%;
+    width: 20%;
     border-radius: 3rem;
     
 }
@@ -63,6 +64,7 @@
     }
     .section-2{
         height: 600px;
+        padding: 15px; /* Ajuste de padding para pantallas más pequeñas */
     }
 }
 @media screen and (max-width: 900px){
@@ -72,6 +74,7 @@
     .section-2{
         width: 80%;
         height: 500px;
+        padding: 10px; /* Ajuste de padding para pantallas más pequeñas */
     }
     .h4-home{
         width: 60%;
@@ -107,6 +110,16 @@
     .img-1{
         width: 30%;
     }
+    .section-2{
+        padding: 5px; /* Ajuste de padding para pantallas más pequeñas */
+    }
+}
+@media screen and (max-width: 535px){
+    .section-2{
+        width: 80%; /* Ajuste de ancho para pantallas más pequeñas */
+        height: auto; /* Ajuste de altura para pantallas más pequeñas */
+        padding: 10px; /* Ajuste de padding para pantallas más pequeñas */
+    }
 }
 @media screen and (max-width: 473px){
     .img-2{
@@ -115,13 +128,13 @@
     }
     .h3-home{
         font-size: 1rem;
-        width: 60%;
+        width: 70%;
     }
     .h3-home2{
         font-size: 1.2rem;
     }
     .h4-home{
-        width: 70%;
+        width: 100%;
         font-size: 1rem;
     }
     .img-1{
